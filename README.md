@@ -51,7 +51,7 @@ Nesse projeto, você devera desenvolver uma aplicação consumindo uma Api exter
 4. Criar a rota /usuários para listar o retorno da API
 5. Utilizar o Vuex para gerenciar os estados da aplicação
 5. Criar componentes para CRUD actions (editar e excluir)
-
+    
 ### Algumas considerações
 
 Ao terminar o projeto, você pode enviar o link do seu repositório (Deixar o mesmo publico) e se tiver alcançado a meta de realizar o deploy, mandar o link junto ao responsável.

@@ -1,18 +1,25 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- Incluindo o Navbar -->
+    <Navbar />
+    <DatatableComponent />
+    
+
+    <!-- Aqui está o seu DatatableComponent sendo utilizado -->
+   
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// Importando os componentes
+import DatatableComponent from '@/components/datatableComponent.vue';
+import Navbar from '@/components/Navbar.vue';
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    Navbar,
+    DatatableComponent
   }
-}
+};
 </script>
